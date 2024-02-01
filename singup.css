@@ -1,0 +1,80 @@
+body{
+    background-image: url("47F.jpg");
+    background-repeat:no-repeat;
+}
+form{
+    backdrop-filter: blur(16px);
+    border-radius: 20px;
+    border:1px white solid;
+    width:50%;
+    margin:25%;
+    margin-top:6%;
+    margin-bottom:3%;
+}
+h1{
+    color:white;
+    text-align: center;
+}
+label{
+    color:white;
+    display:block;
+
+}
+input{
+    background-color:rgb(255, 255, 255,0);
+    border:1px solid rgb(255, 255, 255);
+    border-radius:4rem;
+    padding:1%;
+    width:70%; 
+    padding-left:2%;  
+}
+.username,.email,.password{
+    margin-left:10%;
+    margin-bottom:1%;
+    
+}
+.name{
+    width: 95%;
+    padding-left:3%; 
+}
+.namediv{
+  width:35%;
+  margin-left:10%;
+  margin-right:2%;
+  display:inline-block;
+}
+.name2div{
+    width:35%;
+    display:inline-block;
+    margin-left:0;
+    margin-bottom: 1%;
+
+  }
+  .passwordlab,.usernamelab,.emaillab{
+    margin-left:12%;
+    margin-bottom:1%;
+  }
+  .singup{
+    margin:auto;
+    margin-top:2%;
+    width:45%;
+    display: block;
+    color: white;
+    
+  }
+  p{
+    color: white;
+    text-align: center;
+    margin-top:1%;
+    margin-bottom: 2%;
+  }
+  a{color:white;
+    font-weight:800;}
+    ::placeholder{
+        color: white;
+    }
+   .namelab{
+     margin-bottom:2%;
+     margin-left:4%;
+   }
+
